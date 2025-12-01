@@ -1,7 +1,5 @@
 "use client"
 import React, {useState, useEffect} from 'react'
-import {Search} from "lucide-react";
-import SearchBar from "@/app/components/ui/SearchBar";
 import TechPills from "@/app/components/ui/TechPills";
 import ExploreBtn from "@/app/components/ui/ExploreBtn";
 import StatsGrid from "@/app/components/ui/StatsGrid";
