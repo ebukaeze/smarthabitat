@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="w-full min-h-screen h-full">
         <Header />
-        <div className="w-full max-w-6xl mx-auto py-4">
+        <div className="w-full flex items-center justify-center md:max-w-6xl md:mx-auto py-4">
            <FeatureSection />
             <PropertySection />
         </div>
