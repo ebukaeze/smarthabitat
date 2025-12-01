@@ -16,8 +16,8 @@ const StatsGrid = () => {
                         <div className={`w-12 h-12 bg-gradient-to-br ${stat.color} rounded-xl flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform`}>
                             <stat.icon className="w-6 h-6 text-white" />
                         </div>
-                        <div className="text-4xl font-bold text-white mb-2">{stat.number}</div>
-                        <div className="text-gray-300 text-sm">{stat.label}</div>
+                        <div className="text-4xl font-bold text-gray-700 md:text-white mb-2">{stat.number}</div>
+                        <div className="text-gray-500 md:text-gray-300 text-sm">{stat.label}</div>
                     </div>
                 ))}
             </div>

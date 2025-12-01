@@ -15,7 +15,7 @@ const FeatureSection = () => {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="w-full flex items-center justify-center flex-col md:grid lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <FeatureCard
                         icon={Zap}
                         title="AI-Powered Search"

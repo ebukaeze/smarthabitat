@@ -16,7 +16,7 @@ const HeroSection = () => {
                         <div className="inline-block mb-4 px-4 py-2 bg-indigo-500/20 backdrop-blur-sm border border-indigo-400/30 rounded-full">
                             <span className="text-indigo-200 text-sm font-semibold tracking-wide">NEXT-GEN PROPTECH PLATFORM</span>
                         </div>
-                        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <h1 className="text-3xl md:text-7xl font-bold text-white mb-6 leading-tight">
                             Smart Property
                             <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
                   Management
